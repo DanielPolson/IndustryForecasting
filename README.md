@@ -1,1 +1,3 @@
-# IndustryForecasting
+# Industry Forecasting
+
+In my analysis, I looked to model and forecast the proportion of the Canadian population employed in each industry. Since the number of surveyed individuals is not constant or necessarily directly related to the total population size, it is more logical to model this way. I chose to use a seasonal ARIMA model for each industry for a number of reasons. The seasonal component is extremely useful for modeling certain industries. Upon inspecting the \textit{Elementary and secondary schools} graph from either my graphs or RShiny link, you can see that employment falls heavily during each summer. Another important reason is that these models can be fit individually to all industries quickly in R, and they tend to be a good fit.
